@@ -117,7 +117,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 
 ### Presentation Structure
 
-**You must be ready to present your findings by the start of class on September 30.**
+**You must be ready to present your findings by the start of class on February 3rd.**
 
 - **Aim for your presentation to be between 5 - 7 minutes.**
 - Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
