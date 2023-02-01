@@ -106,7 +106,7 @@ Here's a link on [how to give a good lightning talk](https://www.semrush.com/blo
 Your technical report will be hosted on Github Enterprise. Make sure it includes:
 
 - A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis (renamed to describe your project)
+- Jupyter notebook(s) with your analysis. Completing `starter_code.ipynb` will suffice for this project!
 - Data files
 - Presentation slides (as a PDF)
 - Any other necessary files (images, etc.)
