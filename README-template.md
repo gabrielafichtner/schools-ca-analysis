@@ -10,6 +10,13 @@ Examples:
 > * We hypothesize that student performance on these tests is not an indicator of overall academic performance. This project seeks to see if a relationship exists between student GPA and SAT/ACT scores to support or oppose the continuation of these tests as a requirement for college applications.
 > * *Feel free to be creative with your own problem statement!*
 
+Your problem statement should be:
+   - **S**pecific
+   - **M**easurable
+   - **A**chievable
+   - **R**elevant
+   - **T**ime-bound
+
 
 
 # Data Dictionary
