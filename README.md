@@ -84,7 +84,7 @@ You are welcome to add any other data sources you find online to support your an
 
 All of your projects will comprise of a written technical report and a presentation. As we continue in the course, your technical report will grow in complexity, but for this initial project it will comprise:
 - A Jupyter notebook that describes your data with visualizations & statistical analysis.
-- A README markdown file the provides an introduction to and overview of your project.
+- A README markdown file (NOT THIS FILE!) that provides an introduction to and overview of your project. Take a look at the [README-template.md]('./README-template.md') for inspiration.
 - Your presentation slideshow rendered as a .pdf file.
 **NOTE**: Your entire Github repository will be evaluated as your technical report. Make sure that your files and directories are named appropriately, that all necessary files are included, and that no unnecessary or incomplete files are included.
 
