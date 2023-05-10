@@ -4,19 +4,20 @@ In this section, it is recommended to provide some background information about 
 
 Examples:
 
-> * The new format for the SAT was released in March 2016. Since then, levels of participation in multiple states have changed with varying legislative decisions. This project aims to explore trends in SAT and ACT participation for the years 2017-2019 and seeks to identify states that have decreasing SAT participation rates.
-> * High school students often know which colleges they would like to consider, but rarely know what SAT or ACT score they should aim for when applying to these colleges. We wish to explore the schools that have the highest and lowest SAT and ACT score requirements and see if there is a relationship between college prestige and test scores.
-> * The state of California has many school districts. This project aims to identify the districts that have the worst overall student performance on the SAT and ACT tests so the state can recommend programs and allocate resources to these districts in need. 
-> * We hypothesize that student performance on these tests is not an indicator of overall academic performance. This project seeks to see if a relationship exists between student GPA and SAT/ACT scores to support or oppose the continuation of these tests as a requirement for college applications.
+> * Changes in legislation and format have caused SAT participation rates to vary across different states in the US. The objective of this project is to explore trends in SAT and ACT participation between 2017-2019, and identify states with declining SAT participation rates that may require further attention or resources by the end of the calendar year.
+> * High school students often have limited guidance when it comes to setting an SAT or ACT score goal while applying to colleges. This project seeks to identify the schools with the highest and lowest SAT/ACT score requirements and investigate whether there is a correlation between the schools' prestige and their test score expectations by the end of the academic year.
+> * Some school districts in California are struggling with low student performance on the SAT and ACT tests. The aim of this project is to identify the districts with the lowest overall student performance on the tests by the end of the academic year, so that the state can allocate resources and recommend programs to these districts in need.
+> * There is a lack of clarity on whether a correlation exists between student academic performance and their SAT/ACT scores. This project aims to investigate the relationship between student GPA and SAT/ACT scores, and provide evidence to support or oppose the continuation of these tests as a requirement for college applications by the end of the research period.
 > * *Feel free to be creative with your own problem statement!*
 
-Your problem statement should be:
-   - **S**pecific
-   - **M**easurable
-   - **A**chievable
-   - **R**elevant
-   - **T**ime-bound
+A great problem statement should be SMART:
+   - **S**pecific - The problem statement should clearly define the problem or challenge being addressed, including any relevant context or background information.
+   - **M**easurable - The problem statement should identify measurable indicators or criteria that can be used to determine whether the problem has been solved or addressed.
+   - **A**chievable - The problem statement should identify goals or objectives that are realistic and attainable given the resources and constraints of the project.
+   - **R**elevant - The problem statement should be relevant to the broader context or field of study, and should address a problem or challenge that is important and meaningful.
+   - **T**ime-bound - The problem statement should identify a clear timeframe or deadline for when the problem needs to be addressed or solved.
 
+By using the SMART framework, you can help ensure that your problem statement is well-defined and focused, and that the goals of the project are clear and achievable.
 
 
 # Data Dictionary
