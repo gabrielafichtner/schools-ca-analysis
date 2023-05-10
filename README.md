@@ -45,6 +45,15 @@ And here are some example problem statements related to the above prompts. Come 
 > * There is a lack of clarity on whether a correlation exists between student academic performance and their SAT/ACT scores. This project aims to investigate the relationship between student GPA and SAT/ACT scores, and provide evidence to support or oppose the continuation of these tests as a requirement for college applications by the end of the research period.
 > * *Feel free to be creative with your own problem statement!*
 
+A great problem statement should be SMART:
+   - **S**pecific - The problem statement should clearly define the problem or challenge being addressed, including any relevant context or background information.
+   - **M**easurable - The problem statement should identify measurable indicators or criteria that can be used to determine whether the problem has been solved or addressed.
+   - **A**chievable - The problem statement should identify goals or objectives that are realistic and attainable given the resources and constraints of the project.
+   - **R**elevant - The problem statement should be relevant to the broader context or field of study, and should address a problem or challenge that is important and meaningful.
+   - **T**ime-bound - The problem statement should identify a clear timeframe or deadline for when the problem needs to be addressed or solved.
+
+By using the SMART framework, you can help ensure that your problem statement is well-defined and focused, and that the goals of the project are clear and achievable.
+
 ---
 
 ### Datasets
