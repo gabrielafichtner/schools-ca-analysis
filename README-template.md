@@ -1,52 +1,99 @@
-# Project Title
+# California Education in Different Counties
 
-In this section, it is recommended to provide some background information about your topic and a clear problem statement. This can be done in 1-2 paragraphs. To conclude this section, you can state the goal or objective of your project, for example, "The objective of this project is to _____."
+The objective of this work is to identify underperforming counties in California, considering metrics such as students' standardized tests scores, and central tendencies of the states, to better allocate education resources.
 
-Examples:
-
-> * Changes in legislation and format have caused SAT participation rates to vary across different states in the US. The objective of this project is to explore trends in SAT and ACT participation between 2017-2019, and identify states with declining SAT participation rates that may require further attention or resources by the end of the calendar year.
-> * High school students often have limited guidance when it comes to setting an SAT or ACT score goal while applying to colleges. This project seeks to identify the schools with the highest and lowest SAT/ACT score requirements and investigate whether there is a correlation between the schools' prestige and their test score expectations by the end of the academic year.
-> * Some school districts in California are struggling with low student performance on the SAT and ACT tests. The aim of this project is to identify the districts with the lowest overall student performance on the tests by the end of the academic year, so that the state can allocate resources and recommend programs to these districts in need.
-> * There is a lack of clarity on whether a correlation exists between student academic performance and their SAT/ACT scores. This project aims to investigate the relationship between student GPA and SAT/ACT scores, and provide evidence to support or oppose the continuation of these tests as a requirement for college applications by the end of the research period.
-> * *Feel free to be creative with your own problem statement!*
-
-A great problem statement should be SMART:
-   - **S**pecific - The problem statement should clearly define the problem or challenge being addressed, including any relevant context or background information.
-   - **M**easurable - The problem statement should identify measurable indicators or criteria that can be used to determine whether the problem has been solved or addressed.
-   - **A**chievable - The problem statement should identify goals or objectives that are realistic and attainable given the resources and constraints of the project.
-   - **R**elevant - The problem statement should be relevant to the broader context or field of study, and should address a problem or challenge that is important and meaningful.
-   - **T**ime-bound - The problem statement should identify a clear timeframe or deadline for when the problem needs to be addressed or solved.
-
-By using the SMART framework, you can help ensure that your problem statement is well-defined and focused, and that the goals of the project are clear and achievable.
 
 
 # Data Dictionary
-
-A data dictionary provides a quick overview of features/variables/columns, alongside data types and descriptions. The more descriptive you can be, the more useful this document is. This can also be where you describe additional data sources that have been used.
-
-Example:
-
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|**county_pop**|*integer*|2010 census|The population of the county (units in thousands, where 2.5 represents 2500 people).|
-|**per_poverty**|*float*|2010 census|The percent of the county over the age of 18 living below the 200% of official US poverty rate (units percent to two decimal places 98.10 means 98.1%)|
+|CCode|float|sat_ca|County code| 
+|SCode|float|sat_ca|School code| 
+|RType|object|sat_ca|'S' if school 'C' if county| 
+|CName|object|sat_ca|County name| 
+|SName|object|sat_ca|School name| 
+|Enroll12|float|sat_ca|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|sat_ca|Numbers of students who took the test| 
+|PctBothBenchmark12|object|sat_ca|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|sat_ca|Percentage of enrolled students that took the test| 
+|CCode|float|act_ca|County code| 
+|RType|object|act_ca|'S' if school 'C' if county| 
+|CName|object|act_ca|County name| 
+|Enroll12|float|act_ca|Students enrolled in 12th grade| 
+|NumTstTakr|float|act_ca|Number of students that took the test| 
+|CCode|float|sat_counties|County code| 
+|SCode|float|sat_counties|School code| 
+|RType|object|sat_counties|'S' if school 'C' if county| 
+|SName|object|sat_counties|School name| 
+|CName|object|sat_counties|County name| 
+|Enroll12|float|sat_counties|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|sat_counties|Numbers of students who took the test| 
+|PctBothBenchmark12|object|sat_counties|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|sat_counties|Percentage of enrolled students that took the test| 
+|NumTstTakr|float|act_counties|Number of students that took the test| 
+|CCode|float|act_counties|County code| 
+|RType|object|act_counties|'S' if school 'C' if county| 
+|Enroll12|float|act_counties|Number of students enrolled in 12th grade| 
+|CName|object|act_counties|County name| 
+|test_takers|float|sat_test_takers|Number of test takers| 
+|test|object|sat_test_takers|Which test| 
+|test_takers|float|act_test_takers|Number of test takers| 
+|test|object|act_test_takers|Which test| 
+|test_takers|float|test_takers_df|Number of test takers| 
+|test|object|test_takers_df|Which test| 
+|CName|object|test_takers_df|County name| 
+|CCode|float|sat_schools|County code| 
+|SCode|float|sat_schools|School code| 
+|RType|object|sat_schools|'S' if school 'C' if county| 
+|CName|object|sat_schools|County name| 
+|SName|object|sat_schools|School name| 
+|Enroll12|float|sat_schools|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|sat_schools|Numbers of students who took the test| 
+|PctBothBenchmark12|float|sat_schools|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|sat_schools|Percentage of enrolled students that took the test| 
+|CCode|float|sat_reported|County code| 
+|SCode|float|sat_reported|School code| 
+|RType|object|sat_reported|'S' if school 'C' if county| 
+|CName|object|sat_reported|County name| 
+|SName|object|sat_reported|School name| 
+|Enroll12|float|sat_reported|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|sat_reported|Numbers of students who took the test| 
+|PctBothBenchmark12|float|sat_reported|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|sat_reported|Percentage of enrolled students that took the test| 
+|CCode|float|sat_reported_counties|County code| 
+|SCode|float|sat_reported_counties|School code| 
+|RType|object|sat_reported_counties|'S' if school 'C' if county| 
+|CName|object|sat_reported_counties|County name| 
+|SName|object|sat_reported_counties|School name| 
+|Enroll12|float|sat_reported_counties|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|sat_reported_counties|Numbers of students who took the test| 
+|PctBothBenchmark12|float|sat_reported_counties|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|sat_reported_counties|Percentage of enrolled students that took the test|
+|CCode|float|first_quad|County code| 
+|SCode|float|first_quad|School code| 
+|RType|object|first_quad|'S' if school 'C' if county| 
+|CName|object|first_quad|County name| 
+|SName|object|first_quad|School name| 
+|Enroll12|float|first_quad|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|first_quad|Numbers of students who took the test| 
+|PctBothBenchmark12|float|first_quad|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|first_quad|Percentage of enrolled students that took the test|
+|CCode|float|fourth_quad|County code| 
+|SCode|float|fourth_quad|School code| 
+|RType|object|fourth_quad|'S' if school 'C' if county| 
+|CName|object|fourth_quad|County name| 
+|SName|object|fourth_quad|School name| 
+|Enroll12|float|fourth_quad|Number of students enrolled in 12th grade| 
+|NumTSTTakr12|float|fourth_quad|Numbers of students who took the test| 
+|PctBothBenchmark12|float|fourth_quad|Percentage of students that met or exceeded both benchmarks| 
+|PctTakr|float|fourth_quad|Percentage of enrolled students that took the test|
 
 
 # Executive Summary
 
-An executive summary is a brief summary of the key points and objectives of a project. The purpose of an executive summary is to provide a high-level overview of the project and to give readers a clear understanding of what the project is about and what it aims to achieve.
-
-An effective executive summary should provide a clear and concise summary of the project, including its goals, methodology, key findings, and conclusions. It should be written in a way that is easy to understand for a broad audience, including those who may not have technical expertise in the project's subject matter.
-
-Some key elements that may be included in an executive summary are:
-
-* A summary of the problem or challenge the project is addressing
-* An explanation of the project's goals and objectives
-* A summary of the project methodology, including any data sources, data cleaning, EDA & analysis techniques, or models used
-* A summary of the key findings or insights generated by the project. Feel free to include images of your visualizations here!
-* A conclusion that summarizes the main results and their implications. You may want to consider the following question as you craft your conclusion: "How can the audience use the insights generated by this project to inform their decisions or actions?"
-* Next steps - This can include recommendations for future research or analysis, ideas for how to improve upon the project's methodology or data sources, and/or suggestions for how to extend or expand the project in new directions.
-
-By including an executive summary in your project's readme file, you can help ensure that readers have a clear understanding of the project's purpose, methodology, and findings, even if they don't have time to read the entire document.
-
-Have any questions? Let us know!
+For students' performance, SAT data was chosen because of the students' coverage. SAT is more used in California than ACT.
+No significant relationship between the variables available and students' performance were seen.
+Schools were divided in 4 quadrants, having more or less than enrollment median and/or more or less than the percentage of both benchmarks met or exceeded.
+The quadrant underperforming and with more enrollment students than the median was analyzed in county level.
+Then, the quadrant underperforming and with less enrollment students than the meadian was also analyzed in a county level.
+The suggestion is to invest more in Los Angeles, Riverside, San Bernardino, Orange, Kern, San Diego, Fresno, Sacramento, Monterey and Ventura, and then the other ones that are smaller but equally underperforming, that is, Contra Costa, Alameda, Tulare and Santa Clara
